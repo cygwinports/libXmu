@@ -3,27 +3,27 @@ libXmu
 Xorg miscellaneous utility libraries
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  libX11_6-1.0.0-1
-  libXext6-1.0.0-1
-  libXt6-1.0.0-1
+  cygwin-1.5.20-1
+  libX11_6-1.0.1-1
+  libXext6-1.0.1-1
+  libXt6-1.0.2-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
-  automake1.7-1.7.9-1
+  cygwin-1.5.20-1
+  autoconf2.5-2.59-2
+  automake1.7-1.9.6-1
   binutils-20050610-1
-  cygport-0.1.0-1
+  cygport-0.2.2-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  libtool1.5-1.5.20-2
+  libtool1.5-1.5.22-1
   make-3.80-1
   pkg-config-0.20-1
-  sed-4.1.4-1
+  sed-4.1.5-1
   xextproto-7.0.2-1
-  xorg-util-macros-1.0.1-1
-  xproto-7.0.4-1
+  xorg-util-macros-1.0.2-1
+  xproto-7.0.7-1
   xtrans-1.0.0-1
 
 Canonical website:
@@ -35,17 +35,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libXmu-1.0.0-X-src.tar.bz2
+  unpack libXmu-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libXmu-1.0.0-X.cygport all
+  cygport ./libXmu-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/libXmu-1.0.0-X-src.tar.bz2
-  /usr/src/libXmu-1.0.0-X.tar.bz2
-  /usr/src/libXmu6-1.0.0-X.tar.bz2
-  /usr/src/libXmuu1-1.0.0-X.tar.bz2
+  /usr/src/libXmu-1.0.2-X-src.tar.bz2
+  /usr/src/libXmu-1.0.2-X.tar.bz2
+  /usr/src/libXmu6-1.0.2-X.tar.bz2
+  /usr/src/libXmuu1-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -79,11 +79,11 @@ Files included in the main package:
   /usr/lib/libXmuu.la
   /usr/lib/pkgconfig/xmu.pc
   /usr/lib/pkgconfig/xmuu.pc
-  /usr/share/doc/Cygwin/libXmu-1.0.0.README
-  /usr/share/doc/libXmu-1.0.0/COPYING
-  /usr/share/doc/libXmu-1.0.0/ChangeLog
-  /usr/share/doc/libXmu-1.0.0/INSTALL
-  /usr/share/doc/libXmu-1.0.0/README
+  /usr/share/doc/Cygwin/libXmu-1.0.2.README
+  /usr/share/doc/libXmu-1.0.2/COPYING
+  /usr/share/doc/libXmu-1.0.2/ChangeLog
+  /usr/share/doc/libXmu-1.0.2/INSTALL
+  /usr/share/doc/libXmu-1.0.2/README
 
 Files included in the library packages:
 
@@ -94,6 +94,9 @@ Files included in the library packages:
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+X11R7.1 version bump.
 
 ----- version 1.0.0-1 -----
 Initial Cygwin release of modular X11R7.0.
