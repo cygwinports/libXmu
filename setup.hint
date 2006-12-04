@@ -1,4 +1,3 @@
 category: X11
-requires: cygwin libX11 libXext libXt xproto
-sdesc: "Xorg miscellaneous utility libraries (development)"
+sdesc: "Xorg miscellaneous utility libraries (documentation)"
 ldesc: "Xorg miscellaneous utility libraries"

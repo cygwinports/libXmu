@@ -1,0 +1,5 @@
+category: X11
+requires: cygwin libX11-devel libXext-devel libXt-devel xproto
+external-source: libXmu
+sdesc: "Xorg miscellaneous utility libraries (development)"
+ldesc: "Xorg miscellaneous utility libraries"
