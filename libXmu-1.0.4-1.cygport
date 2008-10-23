@@ -2,7 +2,7 @@ inherit xorg
 
 PKG_NAMES="${PN} ${PN}6 ${PN}u1 ${PN}-devel"
 PKG_HINTS="setup xmu xmuu devel"
-PKG_CONTENTS[0]='usr/share/'
-PKG_CONTENTS[1]='usr/bin/cygXmu-*.dll'
-PKG_CONTENTS[2]='usr/bin/cygXmuu-*.dll'
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]='usr/bin/cygXmu-6.dll usr/share/doc/'
+PKG_CONTENTS[2]='usr/bin/cygXmuu-1.dll'
 PKG_CONTENTS[3]='usr/include/ usr/lib/'

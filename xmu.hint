@@ -1,5 +1,5 @@
 category: X11
 requires: cygwin libX11_6 libXext6 libXt6
 external-source: libXmu
-sdesc: "Xorg miscellaneous utility libraries (full runtime)"
-ldesc: "Xorg miscellaneous utility libraries"
+sdesc: "X.Org miscellaneous utility libraries (full runtime)"
+ldesc: "X.Org miscellaneous utility libraries"
