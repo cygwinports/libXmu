@@ -1,8 +1,7 @@
 inherit xorg
 
-PKG_NAMES="${PN} ${PN}6 ${PN}u1 ${PN}-devel"
-PKG_HINTS="setup xmu xmuu devel"
-libXmu_CONTENTS=	# empty
+PKG_NAMES="${PN}6 ${PN}u1 ${PN}-devel"
+PKG_HINTS="xmu xmuu devel"
 libXmu6_CONTENTS='usr/bin/cygXmu-6.dll usr/share/doc/'
 libXmuu1_CONTENTS='usr/bin/cygXmuu-1.dll'
 libXmu_devel_CONTENTS='usr/include/ usr/lib/'
