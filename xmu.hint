@@ -1,5 +1,0 @@
-category: X11
-requires: libX11_6 libXext6 libXt6
-external-source: libXmu
-sdesc: "X.Org miscellaneous utility libraries (full runtime)"
-ldesc: "X.Org miscellaneous utility libraries"

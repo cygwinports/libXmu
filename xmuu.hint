@@ -1,5 +1,0 @@
-category: X11
-requires: libX11_6
-external-source: libXmu
-sdesc: "X.Org miscellaneous utility libraries (mini runtime)"
-ldesc: "X.Org miscellaneous utility libraries"
