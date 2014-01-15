@@ -1,13 +1,15 @@
 inherit xorg
 
 NAME="libXmu"
-VERSION=1.1.1
+VERSION=1.1.2
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="X.Org miscellaneous utility libraries"
-DESCRIPTION="X.Org miscellaneous utility libraries"
+DESCRIPTION="This library contains miscellaneous utilities and is not part
+of the Xlib standard.  It contains routines which only use public interfaces
+so that it may be layered on top of any implementation of Xlib or Xt."
 
-PKG_NAMES="${PN}6 ${PN}u1 ${PN}-devel"
+PKG_NAMES="${NAME}6 ${NAME}u1 ${NAME}-devel"
 libXmu6_CONTENTS='usr/bin/cygXmu-6.dll usr/share/doc/'
 libXmuu1_CONTENTS='usr/bin/cygXmuu-1.dll'
 libXmu_devel_CONTENTS='usr/include/ usr/lib/'
